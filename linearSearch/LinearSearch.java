@@ -25,24 +25,22 @@ public class LinearSearch
 
         // run a for loop
 
-        // for (int index = 0; index < arr.length; index++) 
-        // {
-        //     //check for element at every index if it is = target
-        //     int element = arr[index];
-        //     if (element == target) 
-        //     {
-        //         return index;
-        //     }
-        // }
-
-
-        for (int element:arr){
-            if (element == target){
-                return element;
+        for (int index = 0; index < arr.length; index++) 
+        {
+            //check for element at every index if it is = target
+            int element = arr[index];
+            if (element == target) 
+            {
+                return index;
             }
         }
 
 
+        // for (int element:arr){
+        //     if (element == target){
+        //         return element;
+        //     }
+        // }
 
 
         //this line will execute if none of the return statements above have executed
