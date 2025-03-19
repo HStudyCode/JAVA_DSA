@@ -20,5 +20,7 @@ public class Swap_2nos_12 {
         a = b;
         b = temp;
         System.out.println("Inside swap method: a = " + a + ", b = " + b);
+
+        //this change will only be valid in this functions scope only.
     }
 }
