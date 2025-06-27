@@ -1,3 +1,4 @@
+package Shorts;
 //Loops 
 //Q)print number 0 to 10000;
 

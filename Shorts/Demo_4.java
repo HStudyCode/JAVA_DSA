@@ -1,3 +1,4 @@
+package Shorts;
 
 import java.util.Scanner;
 

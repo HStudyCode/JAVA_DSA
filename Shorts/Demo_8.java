@@ -1,3 +1,4 @@
+package Shorts;
 // Functions / Methods
 
 import java.util.Scanner;
