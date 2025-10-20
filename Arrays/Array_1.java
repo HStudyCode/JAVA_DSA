@@ -32,6 +32,7 @@ public class Array_1 {
 
         // using to string
         System.out.println(Arrays.toString(arr));
+        System.out.println("Array length"+arr.length);
 
     }
 }

@@ -1,11 +1,9 @@
-package binarySearch;
-
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] arr={2,4,6,8,10,12,14,16,18,20};
-        int target=18;
+        int[] arr={-18,-12,-6,-4,-2,0,2,4,6,8,10,12,14,16,18,20};
+        int target=-2;
         int ans=binarySearch(arr, target);
-        System.out.println(ans);
+        System.out.println("Index : "+ans);
     }
 
 

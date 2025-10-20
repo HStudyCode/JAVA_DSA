@@ -4,8 +4,14 @@ public class maxWelth {
     public static void main(String[] args) {
         // Test the method with sample data
         int[][] accounts = {
-            {1, 2, 3},
-            {3, 2, 1}
+            // {1, 2, 3},
+            // {3, 2, 1}
+            // {1,5},
+            // {7,3},
+            // {3,5}
+            {2,8,7},
+            {7,1,3},
+            {1,9,5}
         };
         
         int result = maximumWelth(accounts);
