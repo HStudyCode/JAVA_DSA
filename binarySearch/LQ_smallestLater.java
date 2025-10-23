@@ -1,11 +1,10 @@
 public class LQ_smallestLater {
     public static void main(String[] args) {
-        char[] letters = {'c','f','j'};
+        char[] letters = { 'c', 'f', 'j' };
         char target = 'g';
         char ans = nextGreatestLetter(letters, target);
         System.out.println("Index : " + ans);
     }
-
 
     static char nextGreatestLetter(char[] letters, char target) {
 
@@ -18,9 +17,9 @@ public class LQ_smallestLater {
 
             if (target < letters[mid]) {
                 end = mid - 1;
-            } else  {
+            } else {
                 start = mid + 1;
-            } 
+            }
         }
         return letters[start % letters.length];
     }

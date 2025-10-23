@@ -1,12 +1,11 @@
 
-
 public class orderAgnosticBS {
     public static void main(String[] args) {
         int[] arr = { -18, -12, -6, -4, -2, 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
         int target = -2;
 
         int ans = orderAgnosticBS(arr, target);
-        System.out.println("Index is : "+ans);
+        System.out.println("Index is : " + ans);
     }
 
     static int orderAgnosticBS(int[] arr, int target) {

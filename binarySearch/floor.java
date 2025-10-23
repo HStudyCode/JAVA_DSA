@@ -11,8 +11,7 @@ public class floor {
 
     // return the index of Greatest no <= target
     static int ceiling(int[] arr, int target) {
-        
-        
+
         int start = 0;
         int end = arr.length - 1;
 

@@ -3,8 +3,8 @@
 
 public class GFG_positionOfElementSortedInfiniteArray {
     public static void main(String[] args) {
-        int[] arr = { 3, 5, 7, 9, 10, 90, 100, 120, 130, 140, 160, 170};
-        int target = 90;
+        int[] arr = { 3, 5, 7, 9, 10, 90, 100, 120, 130, 140, 160, 170 };
+        int target = 10;
 
         System.out.println(ans(arr, target));
     }
@@ -27,7 +27,7 @@ public class GFG_positionOfElementSortedInfiniteArray {
         return binarySearch(arr, target, start, end);
     }
 
-    static int binarySearch(int[] arr, int target,int start, int end) {
+    static int binarySearch(int[] arr, int target, int start, int end) {
 
         while (start <= end) {
             // find middle element

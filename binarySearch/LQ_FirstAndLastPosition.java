@@ -10,16 +10,16 @@ public class LQ_FirstAndLastPosition {
 
     // return the index of smallest no >= target
     public static int[] searchRange(int[] nums, int target) {
-        
+
         int[] ans = { -1, -1 };
 
         // check for first occurrence if target is first
         int start = search(nums, target, true);
         int end = search(nums, target, false);
 
-        ans[0]= start;
-        ans[1]= end;
-        
+        ans[0] = start;
+        ans[1] = end;
+
         return ans;
     }
 
@@ -40,10 +40,10 @@ public class LQ_FirstAndLastPosition {
             } else {
                 // potential ans found
                 ans = mid;
-                if(findStartIndex){
-                    end= mid-1;
-                }else{
-                    start = mid+1;
+                if (findStartIndex) {
+                    end = mid - 1;
+                } else {
+                    start = mid + 1;
                 }
             }
         }
